@@ -19,27 +19,27 @@ class S22Test(unittest.TestCase):
         self.assertEqual(value, 168)
 
     # 指数
-    def test_zhishu(self):
+    def test_exponent(self):
         value = 2 ** 4
         self.assertEqual(value, 16)
 
     # 余数
-    def test_yushu(self):
+    def test_remainder(self):
         value = 25 % 7
         self.assertEqual(value, 4)
 
     # 复合运算
-    def test_fuheyunsuan(self):
+    def test_compound_operation(self):
         value = 1 + 2 * 3
         self.assertEqual(value, 7)
 
     # 整除
-    def test_zhengchu(self):
+    def test_divide_exactly(self):
         value = 7 // 4
         self.assertEqual(value, 1)
 
     # 大数
-    def test_dashu(self):
+    def test_great_number(self):
         value = 27 ** 100
         self.assertGreater(value, 10000)
 
