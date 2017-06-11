@@ -14,7 +14,7 @@ class S41Test(unittest.TestCase):
         self.assertEqual(not p, True)
 
     # false,true
-    def test_flase_true(self):
+    def test_false_true(self):
         p = False
         q = True
         self.assertEqual(p == q, False)

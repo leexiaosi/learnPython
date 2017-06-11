@@ -11,7 +11,3 @@ elif 2 < age < 13:
     print('child fare')
 else:
     print('adult fare')
-
-for i in range(5, 10):
-    print(i)
-    l

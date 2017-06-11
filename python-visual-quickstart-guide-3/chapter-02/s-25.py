@@ -4,17 +4,17 @@ import unittest
 
 class S25Test(unittest.TestCase):
     # 单引号
-    def test_singlequote(self):
+    def test_single_quote(self):
         value = 'hello'
         self.assertEqual(value, 'hello')
 
     # 双引号
-    def test_doublequote(self):
+    def test_double_quote(self):
         value = "hello"
         self.assertEqual(value, 'hello')
 
     # 三引号
-    def test_threequote(self):
+    def test_three_quote(self):
         value = '''hello'''
         self.assertEqual(value, 'hello')
 
